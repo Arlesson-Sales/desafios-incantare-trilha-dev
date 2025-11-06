@@ -1,8 +1,14 @@
-function invertString(sentence: string): void
-{
-    const result = sentence.split("").reverse().join("");
-    console.log(result);
+function invertStringLoop(sentence: string): string {
+    let result: string = "";
+    for (let index = sentence.length - 1; index >= 0; index--)
+        result += sentence[index];
+    return result;
 }
 
-invertString("batata");
-invertString("arlesson");
+function invertString(sentence: string): string {
+    return sentence.split("").reverse().join("");
+}
+
+console.log(invertString("batata"));
+console.log(invertString("arlesson"));
+console.log(invertStringLoop("planeta"));
