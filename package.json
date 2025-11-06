@@ -1,0 +1,15 @@
+{
+  "name": "desafio-batatas-incantare",
+  "version": "1.0.0",
+  "description": "resoluções dos desafios propostos na Incantare - trilhas de dev",
+  "license": "ISC",
+  "author": "Arlesson-sales",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0"
+  }
+}
