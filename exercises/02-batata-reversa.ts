@@ -1,3 +1,21 @@
+/*
+    # Batata reversa
+
+    **Objetivo:**
+    Praticar manipulação de strings e laços.
+
+    Crie uma função que recebe uma string e retorna a mesma string, mas invertida.
+
+    Exemplo: `"batata"` → `"atatab"`
+
+    O que utilizar:
+
+    - Laços (`for` ou `while`)
+    - Indexação de strings
+    - Concatenar caracteres
+    - Pensar em lógica de trás para frente
+*/
+
 function invertStringLoop(sentence: string): string {
     let result: string = "";
     for (let index = sentence.length - 1; index >= 0; index--)

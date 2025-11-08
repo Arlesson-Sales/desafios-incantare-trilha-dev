@@ -1,6 +1,32 @@
 import readLine from "readline/promises"
 import { stdin as input, stdout as output } from "process"
 
+/*
+    Batata no mercado
+
+    Objetivo:
+    Criar um pequeno programa em JavaScript que simule um sistema de caixa de supermercado.
+
+    Enunciado
+    Você precisa criar um programa que:
+    Informe o nome do cliente
+    Liste alguns produtos com nomes e preços
+    Percorra a lista e calcule o valor total da compra
+    Aplique desconto se o total for maior que R$100
+    Mostre o resultado final com uma mensagem amigável
+
+    Exemplo de comportamento esperado:
+    
+    Cliente: Jake
+    Produtos:
+    - Arroz: R$25
+    - Feijão: R$15
+    - Carne: R$70
+    Total: R$110
+    Desconto aplicado: 10%
+    Total final: R$99
+*/
+
 /** Representa uma coleção de produtos do supermercado */
 type Products = Map<string, number>;
 
